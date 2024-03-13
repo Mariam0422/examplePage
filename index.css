@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+#photographer {
+  margin: 0;
+  padding: 0;
+  background-image: url(./img/photographer.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#photographer > .text {
+  color: white;
+  width: 300px;
+  height: 150px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+}
+.href {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: -10px;
+}
+.href > a {
+  text-decoration: none;
+  color: black;
+  background-color: #e4e3e3;
+  padding: 10px 15px;
+  border: 1px solid #e4e3e3;
+}
+.radius1 {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.radius2 {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+a:hover {
+  background-color: #acaaaa;
+}
+#portfolio {
+  padding: 12px 24px;
+  margin: 0 auto;
+  max-width: 980px;
+}
+#portfolio > img {
+  margin-top: 7px;
+}
+#contact {
+  max-width: 980px;
+  background-color: #ebe9e9;
+  margin: 0 auto;
+  padding: 20px;
+}
+#contact > h2 {
+  text-align: center;
+  font-weight: 400;
+}
+#contact > p {
+  font-size: 18px;
+}
+.contain {
+  margin-top: 10px;
+}
+.contain > input {
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 30px;
+}
+.formButton{
+    width: 100%;
+    margin-top: 30px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #5f5f5f;
+    color: white;
+    border: none;   
+    text-align: center;
+    cursor: pointer;
+}
+.formButton:hover{
+    background-color: #d8d8d8;
+    color: black;
+}
